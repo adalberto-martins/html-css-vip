@@ -1,6 +1,6 @@
-# html-css
- curso em video vips
+# HTML-CSS
+ Curso em vídeo vips
 
- <a href="https://adalberto-martins.github.io/html-css-vip/exercicios/ex001/index.html">Executar o Exercicio 001</a>
+ <a href="https://adalberto-martins.github.io/html-css-vip/exercicios/ex001/index.html">Executar o Exercício 001</a>
  >
 

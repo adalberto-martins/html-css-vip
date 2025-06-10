@@ -24,6 +24,11 @@
             border: 1px solid black;
             padding: 10px;
         }
+
+        th.destaque {
+            background-color: lightgrey;
+        }
+        
         tr:nth-child(even) {
             background-color: rgb(228, 228, 228);
         }
@@ -38,7 +43,7 @@
     <table>
         <caption>Vendas de produtos por mês</caption>
             <thead>
-                <tr style="background-color: lightgrey;">
+                <tr class="destaque">
                     <th scope="row">Produto</th>
                     <th scope="row">Jan</th>
                     <th scope="row">Fev</th>

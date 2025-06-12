@@ -23,6 +23,18 @@
             height: 100%;
             border: 0;
         }
+
+         .doc-container {
+      position: relative;
+      width: 100%;
+      height: 80vh; /* altura ajustável conforme o layout */
+      border: 1px solid #ccc;
+    }
+    .doc-container iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
     </style>
 </head>
 <body>
@@ -45,6 +57,12 @@
     <iframe src="https://embed.waze.com/iframe?zoom=16&lat=-22.902449&lon=-43.174591&ct=livemap" width="600" height="450" allowfullscreen title="mapa localização"></iframe>
 
     <h2>Google Documents</h2>
+        <div class="doc-container">
+            <iframe 
+                  src="https://docs.google.com/document/d/e/2PACX-1vSpUqxo3p-VrpBHhc-l6F_Voi6fvEijsktmdIm7srO2ZPx4NbiE9J2qc1yR049QmUCffpFPa6-tiD1S/pub?embedded=true" 
+                  title="Documento público do Google Docs">
+                </iframe>
+        </div>
    
 </body>
 </html>

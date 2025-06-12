@@ -9,21 +9,42 @@
             padding:56.25% ;
             position: relative;
         }
+        .map-container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%; /* Aspecto 16:9 */
+        }
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
     </style>
 </head>
 <body>
     <h1>Conteúdo dentro de iframes</h1>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, debitis! Suscipit enim sapiente, ad doloribus non officia, possimus maiores veniam omnis ab aperiam voluptatem harum distinctio dolorem molestiae dolorum totam.</p>
     <h2>Vídeos</h2>
-    <div class="erro"  title="mapa localização"><iframe src="https://player.vimeo.com/video/232955578?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Looking For Something - Teaser" ></iframe></div><script src="https://player.vimeo.com/api/player.js" title="mapa localização"></script>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gqk5Mw9VMgM?si=0ZchHALJKNSNrjjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
     <h2>Mapas do Google</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.296175836258!2d-43.17716562504571!3d-22.902444137715214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f58a6a00a9d%3A0x3f251d85272f76f7!2sHostnet%20Internet!5e0!3m2!1spt-BR!2sbr!4v1749557542118!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="mapa localização"></iframe>
+    <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.598653756971!2d-46.4359853250229!3d-23.51096135974177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63fbe9bea4d5%3A0x6422cc5498f8c742!2sR.%20Craval%20-%20Cidade%20Nova%20S%C3%A3o%20Miguel%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008042-560!5e0!3m2!1spt-BR!2sbr!4v1749688053007!5m2!1spt-BR!2sbr" 
+      title="Mapa da Rua Craval em São Paulo"
+      allowfullscreen>
+    </iframe>
+    </div> 
+
 
     <h2>Mapas do waze</h2>
     <iframe src="https://embed.waze.com/iframe?zoom=16&lat=-22.902449&lon=-43.174591&ct=livemap" width="600" height="450" allowfullscreen title="mapa localização"></iframe>
 
     <h2>Google Documents</h2>
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS-8rTrf6o8ZkkI_zCKtC5rr46xqQiJykL18q3hCgf2NyqX6VMcTUTdNUG6NRICPc5rEpE8UIsoDWGY/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" title="mapa localização"></iframe>
-
+   
 </body>
 </html>

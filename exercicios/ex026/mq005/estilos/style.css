@@ -28,6 +28,12 @@ i#burguer {
     
 }
 
+i#burguer:hover {
+    background-color: white;
+    color: black;
+
+}
+
 menu ul {
     list-style-type: none;
 }
